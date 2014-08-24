@@ -1,0 +1,12 @@
+{
+  "name": "observable-wrapper",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "component-emitter": "^1.1.3"
+  }
+}
