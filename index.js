@@ -3,7 +3,7 @@ var Emitter = typeof process == 'undefined' ? require("emitter") : require("comp
 module.exports = observable;
 
 function observable (o) {
-    var wrapper = {}
+    var wrapper = new Emitter();
     Object.keys(o).forEach(function (key) {
         Object.defineProperty(wrapper, key, {
             get: function () {

@@ -1,6 +1,6 @@
 {
     "name": "observable-wrapper",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "repo": "karlbohlmark/observable-object",
     "scripts": [
         "index.js"
