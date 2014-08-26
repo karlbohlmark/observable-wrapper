@@ -1,8 +1,11 @@
 {
     "name": "observable-wrapper",
-    "version": "0.0.2",
-    "repo": "karlbohlmark/observable-object",
+    "version": "0.0.3",
+    "repo": "karlbohlmark/observable-wrapper",
     "scripts": [
         "index.js"
-    ]
+    ],
+    "dependencies": {
+        "component/emitter": "*"
+    }
 }
